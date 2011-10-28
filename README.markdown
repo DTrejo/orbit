@@ -10,10 +10,14 @@
   the site, which may have been different from the version in the [zurb github
   repo][2]
 
-[1]: demo
-[2]: zurbgithubrepo
+[1]: http://dtrejo.github.com/orbit/demo/demo.html
+[2]: https://github.com/zurb/orbit
+
+
 
 ---
+
+
 
 <h1>Orbit: Lightweight jQuery Slider</h1>
 <p>Orbit is a jQuery slider developed by ZURB. The plugin is lightweight(4KB), easy to implement and has a good set of features. Learn more about the plugin on the playground page here: <a href="http://www.zurb.com/playground/orbit-jquery-image-slider">http://www.zurb.com/playground/orbit-jquery-image-slider</a></p><br />
