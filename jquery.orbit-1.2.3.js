@@ -85,11 +85,8 @@
 
 			//Set initial front photo z-index and fades it in
 			slides.eq(activeSlide)
-			  .css({"z-index" : 3})
-			  .fadeIn(function() {
-					// brings in all other slides IF css declares a display: none
-					slides.css({"display":"block"});
-			  });
+			  .css({"z-index" : 3, "left": orbitWidth/10 });
+			slides.fadeIn();
 
 // ==============
 // ! TIMER
@@ -432,7 +429,7 @@
 							slides.eq(neg2)
 								.css({"left": -2 * orb + w, "z-index": 3 })
 								.animate({"left": -1 * orb + w}, options.animationSpeed);
-							
+
 							slides.eq(neg1)
 								.css({"left": -1 * orb + w, "z-index": 3 })
 								.animate({"left" : 0 * orb + w}, options.animationSpeed);
