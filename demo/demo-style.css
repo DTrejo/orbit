@@ -38,7 +38,7 @@ div.slider-nav span.left{left:-78px;}
 .orbit-wrapper .orbit-caption{bottom:-36px;}
 
 #featured {
-	width: 940px;
+	width: 1128px; /*940 + 940/10 * 2*/
 	height: 450px;
 }
 
