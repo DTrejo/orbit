@@ -23,8 +23,14 @@ a{color:#00baff;text-decoration:none;font-weight:bold;font-size:12px;}
 a:hover{text-decoration:underline;}
 
 /* MY ADDITIONS — David Trejo (dtrejo.com) */
-.orbit-bullets{top:-35px;}
+.orbit-bullets {
+	top:-35px;
+	margin-left:-25px;
+}
 
+.orbit-bullets li {
+	cursor: default;
+}
 .orbit-bullets li.has-thumb {
 	height: 50px;
 	width: 24px;
@@ -36,6 +42,7 @@ div.slider-nav span.left{left:-78px;}
 
 /* make caption be below picture and not cover it */
 .orbit-wrapper .orbit-caption{bottom:-36px;}
+
 
 #featured {
 	width: 1128px; /*940 + 940/10 * 2*/
