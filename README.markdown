@@ -1,3 +1,20 @@
+[Modified version of Orbit.][1]
+===
+
+## Notable changes
+- horizontal push transition optimized for viewing surrounding two slides
+- see [demo][1]
+- tabs/spaces are now consistent, which makes comparison between this and parent
+  project a tad difficult
+- may contain regressions b/c this was developed on the version downloaded from
+  the site, which may have been different from the version in the [zurb github
+  repo][2]
+
+[1]: demo
+[2]: zurbgithubrepo
+
+---
+
 <h1>Orbit: Lightweight jQuery Slider</h1>
 <p>Orbit is a jQuery slider developed by ZURB. The plugin is lightweight(4KB), easy to implement and has a good set of features. Learn more about the plugin on the playground page here: <a href="http://www.zurb.com/playground/orbit-jquery-image-slider">http://www.zurb.com/playground/orbit-jquery-image-slider</a></p><br />
 <h3>Download & Documentation </h3>
