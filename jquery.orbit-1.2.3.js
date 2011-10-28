@@ -267,10 +267,10 @@
 				}
 				orbitWrapper.children('ul.orbit-bullets').append(liMarkup);
 				liMarkup.data('index',i);
-				liMarkup.click(function() {
-				  stopClock();
-				  shift($(this).data('index'));
-				});
+				// liMarkup.click(function() {
+				//   stopClock();
+				//   shift($(this).data('index'));
+				// });
 			  }
 			  setActiveBullet();
 			}
