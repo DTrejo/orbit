@@ -1,48 +1,49 @@
-/* These are just the demo styles and these can be removed and Orbit 
+/* These are just the demo styles and these can be removed and Orbit
 will still work like a champ (except any content block needs a background which
 our demo gets from this sheet) */
+.container{
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	margin: -300px 0 0 -570px;
+}
+.content{background:url(dummy-images/coffee.jpg);}
+.content h1{font-size:40px;text-transform:uppercase;font-weight:bold;text-align:center;margin-top:180px;color:#222;line-height:50px;}
+.content h3{text-align:center;font-size:22px;color:#222;}
+/* --------------------------------------------------
+Global Reset & Standards
+-------------------------------------------------- */
+html,body{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,cite,code,img,small,strike,strong,em,sub,sup,tt,dd,dl,dt,li,ol,ul,fieldset,form,label,legend,button,table,caption,tbody,tfoot,thead,tr,th,td,section{margin:0;padding:0;border:0;font-weight:normal;font-style:normal;font-size:100%;line-height:1;font-family:inherit;text-align:left;}
+table{border-collapse:collapse;border-spacing:0;}
+ol,ul{list-style:none;}
+body{background:#fff;font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;font-size:13px;line-height:18px;text-shadow:0 0 1px rgba(0,0,0,0.01);color:#555;}
+h4{font-weight:bold;color:#222;font-size:15px;}
+a{color:#00baff;text-decoration:none;font-weight:bold;font-size:12px;}
+a:hover{text-decoration:underline;}
 
-.container {
-    position: absolute; 
-    top: 50%; 
-    left: 50%;
-    margin: -300px 0 0 -470px; }
-    
-.content { background: url(dummy-images/coffee.jpg); }
-.content h1 {
-	font-size: 40px; 
-	text-transform: uppercase; 
-	font-weight: bold; 
-	text-align: center;
-	margin-top: 180px;
-	color: #222;
-	line-height: 50px;  }
-.content h3 {
-	text-align: center; 
-	font-size: 22px; 
-	color: #222; }
-	
-.orbit-wrapper { margin-bottom: 100px; }
-    
-/*	--------------------------------------------------
-	Global Reset & Standards
-	-------------------------------------------------- */
-	html, body { margin: 0; padding: 0; }
-	h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, cite, code, img, small, strike, strong, em, sub, sup, tt, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, button, table, caption, tbody, tfoot, thead, tr, th, td, section { margin: 0; padding: 0; border: 0; font-weight: normal; font-style: normal; font-size: 100%; line-height: 1; font-family: inherit; text-align: left; }
-	table { border-collapse: collapse; border-spacing: 0; }
-	ol, ul { list-style: none; }
+/* MY ADDITIONS — David Trejo (dtrejo.com) */
+.orbit-bullets{top:-35px;}
 
-	body { background: #fff; font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-size: 13px; line-height: 18px; text-shadow: 0 0 1px rgba(0,0,0,0.01); color: #555; }
-	
-	h4 {
-		font-weight: bold; 
-		color: #222;
-		font-size: 15px; }
-		
-	a { 
-		color: #00baff;
-		text-decoration: none; 
-		font-weight: bold;
-		font-size: 12px; }
-		
-	a:hover { text-decoration: underline; }
+.orbit-bullets li.has-thumb {
+	height: 50px;
+	width: 24px;
+}
+
+/* make arrows be on sides of image, not on top of image */
+div.slider-nav span.right{right:-266px;}
+div.slider-nav span.left{left:-78px;}
+
+/* make caption be below picture and not cover it */
+.orbit-wrapper .orbit-caption{bottom:-36px;}
+
+#featured {
+	width: 940px;
+	height: 450px;
+}
+
+/*.orbit > div,*/
+/*div.orbit > img {*/
+/*	left: 10%;*/
+/*	width: 80%;*/
+/*}*/
