@@ -66,6 +66,7 @@
 			  }
 			  numberSlides++;
 			});
+			orbitWrapper.width(orbitWidth + orbitWidth/10 * 2);
 			orbit.width(orbitWidth + orbitWidth/10 * 2);
 
 			//Animation locking functions
