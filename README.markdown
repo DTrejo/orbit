@@ -13,7 +13,7 @@
 [1]: http://dtrejo.github.com/orbit/demo/demo.html
 [2]: https://github.com/zurb/orbit
 
-
+You may be able to see a modified version of this at <http://dev.stg.brown.edu/projects/perry/>
 
 ---
 
